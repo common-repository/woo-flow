@@ -1,0 +1,262 @@
+/**
+ * All of the CSS for your admin-specific functionality should be
+ * included in this file.
+ */
+
+/*===== Custom table report column width =====*/
+td {
+    /*font-size: initial;*/
+}
+
+.column-id {
+    width: 4%;
+}
+
+.wp-core-ui .button-delete {
+    background: #aa0000;
+    border-color: #b40000 #8c0000 #8c0000;
+    -webkit-box-shadow: 0 1px 0 #8c0000;
+    box-shadow: 0 1px 0 #8c0000;
+    color: #fff;
+    text-decoration: none;
+    text-shadow: 0 -1px 1px #8c0000,
+    1px 0 1px #8c0000,
+    0 1px 1px #8c0000,
+    -1px 0 1px #8c0000;
+}
+
+.wp-core-ui .button-delete.hover,
+.wp-core-ui .button-delete:hover,
+.wp-core-ui .button-delete.focus,
+.wp-core-ui .button-delete:focus {
+    background: #bf0000;
+    border-color: #8c0000;
+    color: #fff;
+}
+
+.wp-core-ui .button-delete.focus,
+.wp-core-ui .button-delete:focus {
+    -webkit-box-shadow: 0 1px 0 #b40000,
+    0 0 2px 1px #DD0000;
+    box-shadow: 0 1px 0 #b40000,
+    0 0 2px 1px #DD0000;
+}
+
+.wp-core-ui .button-delete.active,
+.wp-core-ui .button-delete.active:hover,
+.wp-core-ui .button-delete.active:focus,
+.wp-core-ui .button-delete:active {
+    background: #b40000;
+    border-color: #8c0000;
+    -webkit-box-shadow: inset 0 2px 0 #8c0000;
+    box-shadow: inset 0 2px 0 #8c0000;
+    vertical-align: top;
+}
+
+.wp-core-ui .button-delete[disabled],
+.wp-core-ui .button-delete:disabled,
+.wp-core-ui .button-delete-disabled,
+.wp-core-ui .button-delete.disabled {
+    color: #DD0000 !important;
+    background: #bf0000 !important;
+    border-color: #8c0000 !important;
+    -webkit-box-shadow: none !important;
+    box-shadow: none !important;
+    text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.1) !important;
+    cursor: default;
+}
+
+#ui-datepicker-div {
+    display: none;
+}
+
+.date-range {
+    height: 28px;
+    margin-left: 4px;
+    margin-right: 16px;
+}
+
+.form-table .label-col {
+    width: 128px;
+}
+
+/*===== Funnel format ======*/
+.funnel-header {
+    display: block;
+    width: 80%;
+    float: left;
+}
+
+.wf-config-button {
+    width: 20%;
+    display: block;
+    float: right;
+    padding: 9px 0 4px;
+    text-align: right;
+}
+
+.wf-funnel-icon, .report-data {
+    display: inline-block;
+    margin-right: 12px;
+    vertical-align: middle;
+}
+
+.report-data .wf-label, .report-data .wf-value {
+    color: #5e5e5e;
+}
+
+.report-data .wf-label {
+    font-size: 16px;
+}
+
+.report-data .wf-value {
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.wf-tabel-funnel .report-data .wf-label {
+    font-size: 14px;
+}
+
+.wf-tabel-funnel .report-data .wf-value {
+    margin-top: 8px;
+    font-size: 18px;
+    font-weight: 400;
+    color: #1f1f1f;
+}
+
+.report-data .wf-sub-value {
+    font-size: 13px;
+    color: #777;
+}
+
+.wf-funnel-icon {
+    width: 48px;
+}
+
+.wf-section {
+    margin: 18px 0;
+    border: 0;
+    border-top: 1px solid #ccc;
+}
+
+.funnel-section {
+    padding: 24px 0;
+}
+
+.wf-tabel-funnel {
+    border: 1px solid #aaa;
+    width: 100%;
+}
+
+.wf-tabel-funnel th {
+    text-align: left;
+    font-weight: 400;
+}
+
+.wf-tabel-funnel th .page-name {
+    font-size: 18px;
+    font-weight: 500;
+    margin: 8px 0 4px;
+}
+
+.wf-tabel-funnel th, .wf-tabel-funnel td {
+    border-right: 1px solid #ccc;
+}
+
+.wf-tabel-funnel th {
+    border-bottom: 1px solid #ccc;
+}
+
+#wf-funnel {
+    width: 100%;
+    margin-bottom: -4px;
+}
+
+.float-right {
+    float: right;
+}
+
+.width-30 {
+    width: 30%;
+}
+
+.width-50 {
+    width: 50%;
+}
+
+.wf-canvas-container {
+    padding: 0;
+    /*opacity: 0.75;*/
+}
+
+.funnel-circle {
+    position: absolute;
+    top: -20px;
+    left: calc(50% - 16px);
+    width: 32px;
+    height: 32px;
+    border-radius: 50px;
+    background-color: #999;
+    border: 4px solid #f1f1f1;
+}
+
+.hot-icon {
+    background-color: #f00;
+}
+
+.normal-icon {
+    background-color: #ff4602;
+}
+
+.ok-icon {
+    background-color: #36c20b;
+}
+
+.wf-funnel-circel-icon {
+    color: #fff;
+    width: 32px;
+    height: 32px;
+    margin: 0;
+    line-height: 32px;
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.wf-funnel-icon .dashicons-yes {
+    font-size: 22px;
+}
+
+.funnel-footer {
+    position: relative;
+    padding-top: 36px;
+}
+
+.dropoff-report {
+    text-align: center;
+}
+
+.funnel-table td {
+    padding: 0 0 8px;
+}
+
+.funnel-footer div {
+    vertical-align: top;
+}
+
+.summary-info {
+    margin-top: 30px;
+}
+
+.date-range-header {
+    margin: 4px 0;
+}
+
+.wf_report_page .tablenav .no-pages {
+    display: block;
+    visibility: hidden;
+}
+
+.tablenav label[for="start_date"] {
+    margin-left: 8px;
+}
